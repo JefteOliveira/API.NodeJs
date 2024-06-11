@@ -1,0 +1,41 @@
+# Filmes API
+
+## Descrição
+API foi criado para gerenciamento de filmes e atores. 
+Esta API vai permitir a criação, leitura, atualização
+ e exclusão de registros de filmes e atores.
+
+## Tecnologias que utilizei
+- Node.js - Express - Sequelize - MySQL - dotenv
+
+### Requisitos
+- Node.js
+- MySQL
+
+##Rotas
+##Filmes
+GET /api/filmes - Lista todos os filmes.
+POST /api/filmes - Cria um novo filme.
+GET /api/filmes/:id - Retorna um filme específico.
+PUT /api/filmes/:id - Atualiza um filme específico.
+DELETE /api/filmes/:id - Deleta um filme específico.
+##Atores
+GET /api/atores - Lista todos os atores.
+POST /api/atores - Cria um novo ator.
+GET /api/atores/:id - Retorna um ator específico.
+PUT /api/atores/:id - Atualiza um ator específico.
+DELETE /api/atores/:id - Deleta um ator específico.
+
+## Acesse a API-FILMES
+
+http://localhost:3000/api/filmes
+http://localhost:3000/api/atores
+
+### Instalação
+
+.env
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=sua_senha
+DB_NAME=filmes_db
+DB_DIALECT=mysql

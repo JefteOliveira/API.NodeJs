@@ -1,0 +1,34 @@
+
+### Arquivo `.gitignore`
+
+Certifique-se de que o arquivo `.gitignore` está configurado corretamente:
+
+```plaintext
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de saída das migrações do Sequelize
+migrations/
+
+# Ambiente
+.env
+
+# Sistema operacional específico
+.DS_Store
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Outros
+*.swp
